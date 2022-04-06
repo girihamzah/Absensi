@@ -1,0 +1,53 @@
+/* .dashbord {
+    background-image: url("../img/dsh.jpg");   
+} */
+.boxBanner {
+    height: 75vh;
+    background-image: url(../img/Bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.boxBanner:after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.boxBanner .boxImage {
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    left: 0px;
+    top: 150px;
+    background-image: url(../img/pp.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.boxBanner .boxContent .name {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 170px;
+    z-index: 1;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.boxBanner .boxContent .headline {
+    text-align: center;
+    z-index: 1;
+    color: white;
+    position: relative;
+    top: 190px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
